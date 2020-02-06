@@ -12,6 +12,6 @@ In this stage, we go through several Benchmark suites - NAS Parallel Benchmarks,
 
 After having completed the analysis of the subscript array patterns in the benchmark codes, we propose a compile time algorithm based on Symbolic Range Aggregation that will help us detect some of the properties discovered in stage 1 and help prove parallelism. We have applied our algorithm by hand to some representative patterns of the benchmark codes.
 
-A paper detailing the above 2 stages is available as a pre-print as of now at: [Paper link]https://arxiv.org/pdf/1911.05839
+A paper detailing the above 2 stages is available as a pre-print as of now at: [Paper link](https://arxiv.org/pdf/1911.05839)
 
 
