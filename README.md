@@ -8,13 +8,16 @@ The Project has been divided into the following stages:
 
 In this stage, we go through several Benchmark suites - NAS Parallel Benchmarks, SuiteSparse, SPEC CPU 2006 etc. and try to analyze the subscripted subscript patterns inorder to come up with properties that characterize these patterns. These properties aid in parallelizing the loops. Injectivity and Monotonicity were the most important and the most pervasive properties that we came across in our analysis. In addition to the aforementioned properties, we have also discovered certain complex properties that require advanced symbolic analysis techniques.
 
+Following is an example pattern:
+
 ```C
 
   for(i = 0 ; i < n; i++){
-      a[[b[i]] = i;
+      a[b[i]] = expr;
   }
 
 ```
+In the above example, the loop is parallelizable if array "b" is injective.
 
 ### Stage-2 : Compile-time Algorithm for Subscripted-subscripts
 
