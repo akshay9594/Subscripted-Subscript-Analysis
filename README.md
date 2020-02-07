@@ -10,10 +10,6 @@ function goBack() {
 <body>
 
 <button onclick="goBack()">Back</button>
-
-</body>
-</html>
-
 (setq markdown-xhtml-header-content
       "<style type='text/css'>
 .button {
@@ -27,6 +23,10 @@ function goBack() {
   font-size: 16px;
 }
 </style>")
+</body>
+</html>
+
+
 
 ## The Project
 
