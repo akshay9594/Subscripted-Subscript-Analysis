@@ -57,4 +57,20 @@ After having completed the analysis of the subscript array patterns in the bench
 
 A paper detailing the above 2 stages is available as a pre-print as of now at: [Paper link](https://arxiv.org/pdf/1911.05839)
 
+### Stage-3 : Implementation of the techniques inside Cetus
+
+Our eventual goal is to implement the symbolic analysis techniques proposed in stage 2 inside the [**Cetus**](https://engineering.purdue.edu/Cetus/) source to source compiler infrastructure. The implemented technique would enable analysis and possible parallelization of the subscripted-subscript patterns within benchmarks identified in stage 1. 
+
+#### Benchmark Suites used for analysis
+
+Here are some popular benchmark suites wherein you can find loops with subscripted-subscript patterns:
+
+* [NAS Parallel Benchmark Suite](https://www.nas.nasa.gov/publications/npb.html)
+* [SuiteSparse](http://faculty.cse.tamu.edu/davis/suitesparse.html)
+* [SPEC CPU 2006](https://www.spec.org/cpu2006/)
+* [Crossroads Benchmark Suite](https://www.lanl.gov/projects/crossroads/benchmarks-performance-analysis.php)
+* [Sparselib++](https://math.nist.gov/sparselib++/)
+
+
+
 
