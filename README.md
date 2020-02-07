@@ -13,6 +13,21 @@ function goBack() {
 
 </body>
 </html>
+
+(setq markdown-xhtml-header-content
+      "<style type='text/css'>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+</style>")
+
 ## The Project
 
 A number of scientific applications comprise of loops wherein there is an array subscripted by another array. When such arrays are written into in the loops, current compile-time techniques are incapacble of detecting such loops as parallelizable. If left unparallelized, these loops can in-turn prevent the performance obtained through automatic parallelization, matching that of the hand parallelized version. Hence, Subscripted subscript analysis is the next big challenge in Automatic Parallelization. 
