@@ -1,13 +1,8 @@
 
 <html>
 <head>
-<script>
-function goBack() {
-  window.history.back()
-}
-</script>
-  
- <style>
+ 
+<style>
 button {
   background-color: white;
   border: 2px solid #555555;
@@ -29,7 +24,7 @@ button :hover {
 
 </head>
 <body>
-<button onclick="goBack()">Back</button>
+<button onclick="window.location.href = 'http://akshayud.me/';">Homepage</button>
 </body>
 </html>
 
