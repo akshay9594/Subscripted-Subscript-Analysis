@@ -8,7 +8,7 @@ function goBack() {
 </script>
   
  <style>
-.button {
+button {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -22,7 +22,6 @@ function goBack() {
 
 </head>
 <body>
-
 <button onclick="goBack()">Back</button>
 </body>
 </html>
