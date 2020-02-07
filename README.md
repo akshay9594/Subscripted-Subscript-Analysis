@@ -18,7 +18,7 @@ button {
   display: inline-block;
   font-size: 16px;
 }
-button5:hover {
+button :hover {
  background-color: #555555;
  color: white;
 }
