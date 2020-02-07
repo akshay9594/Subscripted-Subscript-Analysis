@@ -9,14 +9,18 @@ function goBack() {
   
  <style>
 button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
+  background-color: white;
+  border: 2px solid #555555;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+button5:hover {
+ background-color: #555555;
+ color: white;
 }
 </style>
 
