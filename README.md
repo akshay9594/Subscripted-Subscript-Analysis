@@ -6,12 +6,8 @@ function goBack() {
   window.history.back()
 }
 </script>
-</head>
-<body>
-
-<button onclick="goBack()">Back</button>
-(setq markdown-xhtml-header-content
-      "<style type='text/css'>
+  
+ <style>
 .button {
   background-color: #4CAF50;
   border: none;
@@ -22,7 +18,12 @@ function goBack() {
   display: inline-block;
   font-size: 16px;
 }
-</style>")
+</style>
+
+</head>
+<body>
+
+<button onclick="goBack()">Back</button>
 </body>
 </html>
 
