@@ -9,7 +9,7 @@ function goBack() {
 </head>
 <body>
 
-<button onclick="goBack()">Go Back</button>
+<button onclick="goBack()">Back</button>
 
 </body>
 </html>
