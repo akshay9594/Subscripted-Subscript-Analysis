@@ -57,6 +57,15 @@ After having completed the analysis of the subscript array patterns in the bench
 
 A paper detailing the above 2 stages is available as a pre-print as of now at: [Paper link](https://arxiv.org/pdf/1911.05839)
 
+<html>
+<body>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+</body>
+</html>
+
 ### Stage-3 : Implementation of the techniques inside Cetus
 
 Our eventual goal is to implement the symbolic analysis techniques proposed in stage 2 inside the [**Cetus**](https://engineering.purdue.edu/Cetus/) source to source compiler infrastructure. The implemented technique would enable analysis and possible parallelization of the subscripted-subscript patterns within benchmarks identified in stage 1. 
