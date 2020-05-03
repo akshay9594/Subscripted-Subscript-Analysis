@@ -32,7 +32,7 @@ Here is a high level presentation of the above paper submitted to the HIPS works
 <html>
 <body>
 
-<iframe width="600" height="450" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+<iframe width="450" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
 </body>
