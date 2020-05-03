@@ -57,6 +57,8 @@ After having completed the analysis of the subscript array patterns in the bench
 
 A paper detailing the above 2 stages is available as a pre-print as of now at: [Paper link](https://arxiv.org/pdf/1911.05839)
 
+Here is a high level presentation of the above paper submitted to the HIPS workshop of IPDPS 2020 Conference.
+
 <html>
 <body>
 
