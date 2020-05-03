@@ -1,2 +1,4 @@
 title: Automatic Parallelization of Subscripted subscripts
 remote_theme: benbalter/retlab
+
+theme: jekyll-theme-midnight
