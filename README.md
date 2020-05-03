@@ -24,7 +24,8 @@ button :hover {
 
 </head>
 <body>
-<button onclick="window.location.href = 'http://akshayud.me/';">Homepage</button>
+ <a href="#" class="button">Link Button</a>
+<button onclick="window.location.href = 'http://akshayud.me/';"></button>
 </body>
 </html>
 
