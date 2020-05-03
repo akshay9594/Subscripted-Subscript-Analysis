@@ -3,29 +3,23 @@
 <head>
  
 <style>
-button {
-  background-color: white;
-  border: 2px solid #555555;
-  color: black;
-  padding: 15px 32px;
-  text-align: right;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-button :hover {
- background-color: #555555;
- color: white;
-}
-</style>
-
-</head>
-<body>
- <a href='http://akshayud.me/' class="button">Homepage</a>
-</body>
+         .button {
+         background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }
+      </style>
+   </head>
+   <body>
+      <a href="https://www.w3docs.com/" class="button">Click Here</a>
+   </body>
 </html>
 
 
