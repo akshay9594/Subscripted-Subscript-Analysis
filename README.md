@@ -36,7 +36,6 @@ Here is a high level presentation of the above paper submitted to the HIPS works
 
 </body>
 </html>
-
 <p>&nbsp;</p>
 
 ### Stage-3 : Implementation of the techniques inside Cetus
