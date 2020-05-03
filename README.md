@@ -7,18 +7,18 @@
          background-color: #1c87c9;
          border: none;
          color: white;
-         padding: 20px 34px;
+         padding: 15px 20px;
          text-align: center;
          text-decoration: none;
          display: inline-block;
-         font-size: 20px;
+         font-size: 15px;
          margin: 4px 2px;
          cursor: pointer;
          }
       </style>
    </head>
    <body>
-      <a href="https://www.w3docs.com/" class="button">Click Here</a>
+      <a href="http://akshayud.me/" class="button">Homepage</a>
    </body>
 </html>
 
