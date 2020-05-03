@@ -60,7 +60,7 @@ A paper detailing the above 2 stages is available as a pre-print as of now at: [
 <html>
 <body>
 
-<iframe width="500" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+<iframe width="600" height="450" src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
 </body>
