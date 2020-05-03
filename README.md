@@ -13,7 +13,7 @@ In this stage, we go through several Benchmark suites - NAS Parallel Benchmarks,
 Following is an example pattern:
 
 ```C
-  // Representative loop
+
   for(i = 0 ; i < n; i++){
       a[b[i]] = expr;
   }
