@@ -8,7 +8,7 @@ button {
   border: 2px solid #555555;
   color: black;
   padding: 15px 32px;
-  text-align: center;
+  text-align: right;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
