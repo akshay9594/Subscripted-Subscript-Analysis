@@ -32,11 +32,12 @@ Here is a high level presentation of the above paper submitted to the HIPS works
 <html>
 <body>
 
-<iframe width="450" height="250" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
 
 </body>
 </html>
 
+<br/><br/>
 
 ### Stage-3 : Implementation of the techniques inside Cetus
 
