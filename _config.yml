@@ -1,3 +1,5 @@
-title: Automatic Parallelization of Subscripted subscripts
+title: Subscripted subscript patterns
+
+description: Analysis and Automatic Parallelization
 
 theme: jekyll-theme-midnight
