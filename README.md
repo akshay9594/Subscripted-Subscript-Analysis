@@ -4,6 +4,18 @@
 
 A number of scientific applications comprise of loops wherein there is an array subscripted by another array. When such arrays are written into in the loops, current compile-time techniques are incapacble of detecting such loops as parallelizable. If left unparallelized, these loops can in-turn prevent the performance obtained through automatic parallelization, matching that of the hand parallelized version. Hence, Subscripted subscript analysis is the next big challenge in Automatic Parallelization. 
 
+Here is a high level presentation of a paper on the current progress submitted to the HIPS workshop of IPDPS 2020 Conference.
+
+<html>
+<body>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ufga3J0WNgw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
+<p>&nbsp;</p>
+
+
 The Project has been divided into the following stages:
 
 ### Stage-1 : Analysis of Subscripted subscript Patterns
@@ -27,16 +39,6 @@ After having completed the analysis of the subscript array patterns in the bench
 
 A paper detailing the above 2 stages is available as a pre-print as of now at: [Paper link](https://arxiv.org/pdf/1911.05839)
 
-Here is a high level presentation of the above paper submitted to the HIPS workshop of IPDPS 2020 Conference.
-
-<html>
-<body>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ufga3J0WNgw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</body>
-</html>
-<p>&nbsp;</p>
 
 ### Stage-3 : Implementation of the techniques inside Cetus
 
