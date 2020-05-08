@@ -2,7 +2,7 @@ title: Subscripted subscript patterns
 
 description: Analysis and Automatic Parallelization
 
+theme: jekyll-theme-midnight
+
 github:
   is_project_page: false
-
-theme: jekyll-theme-midnight
