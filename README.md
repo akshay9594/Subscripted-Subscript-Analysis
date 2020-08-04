@@ -37,7 +37,7 @@ In the above example, the loop is parallelizable if array "b" is injective.
 
 After having completed the analysis of the subscript array patterns in the benchmark codes, we propose a compile time algorithm based on Symbolic Range Aggregation that will help us detect some of the properties discovered in stage 1 and help prove parallelism. We have applied our algorithm by hand to some representative patterns of the benchmark codes.
 
-A paper detailing the above 2 stages is available as a pre-print as of now at: [Paper link](https://arxiv.org/pdf/1911.05839)
+A paper detailing the above 2 stages accepted at IPDPS HIPS is available: [Paper link](https://ieeexplore.ieee.org/abstract/document/9150392?casa_token=t0g4f4I0ce0AAAAA:qM6cBc5kn9EEtWBCc-BJKqLzxdfFv-B48LH4v_oJZ0ikzHyl9sQm6nI7S8pkTREOHxNJn5Sgyw)
 
 
 ### Stage-3 : Implementation of the techniques inside Cetus
