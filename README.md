@@ -40,7 +40,7 @@ After having completed the analysis of the subscript array patterns in the bench
 A paper detailing the above 2 stages accepted at IPDPS HIPS is below:
 
 ### Publications
-* Bhosale, Akshay, and Rudolf Eigenmann. "[Compile-time Parallelization of Subscripted Subscript Patterns].(https://ieeexplore.ieee.org/abstract/document/9150392?casa_token=t0g4f4I0ce0AAAAA:qM6cBc5kn9EEtWBCc-BJKqLzxdfFv-B48LH4v_oJZ0ikzHyl9sQm6nI7S8pkTREOHxNJn5Sgyw)" 2020 IEEE International Parallel and Distributed Processing Symposium   Workshops (IPDPSW). IEEE, 2020.
+* Bhosale, Akshay, and Rudolf Eigenmann. "[Compile-time Parallelization of Subscripted Subscript Patterns](https://ieeexplore.ieee.org/abstract/document/9150392?casa_token=t0g4f4I0ce0AAAAA:qM6cBc5kn9EEtWBCc-BJKqLzxdfFv-B48LH4v_oJZ0ikzHyl9sQm6nI7S8pkTREOHxNJn5Sgyw)" 2020 IEEE International Parallel and Distributed Processing Symposium   Workshops (IPDPSW). IEEE, 2020.
 
 ### Stage-3 : Implementation of the techniques inside Cetus
 
