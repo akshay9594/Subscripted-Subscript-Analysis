@@ -37,10 +37,11 @@ In the above example, the loop is parallelizable if array "b" is injective.
 
 After having completed the analysis of the subscript array patterns in the benchmark codes, we propose a compile time algorithm based on Symbolic Range Aggregation that will help us detect some of the properties discovered in stage 1 and help prove parallelism. We have applied our algorithm by hand to some representative patterns of the benchmark codes.
 
-A paper detailing the above 2 stages accepted at IPDPS HIPS is below:
+Refer to the following publications for more details:
 
 ### Publication:
-* Bhosale, Akshay, and Rudolf Eigenmann. "[Compile-time Parallelization of Subscripted Subscript Patterns](https://ieeexplore.ieee.org/abstract/document/9150392?casa_token=t0g4f4I0ce0AAAAA:qM6cBc5kn9EEtWBCc-BJKqLzxdfFv-B48LH4v_oJZ0ikzHyl9sQm6nI7S8pkTREOHxNJn5Sgyw)" 2020 IEEE International Parallel and Distributed Processing Symposium   Workshops (IPDPSW). IEEE, 2020.
+* Akshay Bhosale, and Rudolf Eigenmann. On the Automatic Parallelization of Subscripted Subscript Patterns using Array Property Analysis, 2021 ACM International Conference on Supercomputing (ICS) (Paper accepted).
+* Akshay Bhosale, and Rudolf Eigenmann. "[Compile-time Parallelization of Subscripted Subscript Patterns](https://ieeexplore.ieee.org/abstract/document/9150392?casa_token=t0g4f4I0ce0AAAAA:qM6cBc5kn9EEtWBCc-BJKqLzxdfFv-B48LH4v_oJZ0ikzHyl9sQm6nI7S8pkTREOHxNJn5Sgyw)" 2020 IEEE International Parallel and Distributed Processing Symposium   Workshops (IPDPSW). IEEE, 2020.
 
 ### Stage-3 : Implementation of the techniques inside Cetus
 
