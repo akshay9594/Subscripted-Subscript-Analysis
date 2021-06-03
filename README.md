@@ -4,12 +4,12 @@
 
 A number of scientific applications comprise of loops wherein there is an array subscripted by another array. When such arrays are written into in the loops, current compile-time techniques are incapacble of detecting such loops as parallelizable. If left unparallelized, these loops can in-turn prevent the performance obtained through automatic parallelization, matching that of the hand parallelized version. Hence, Subscripted subscript analysis is the next big challenge in Automatic Parallelization. 
 
-Here is a high level presentation of a paper on the current progress submitted to the HIPS workshop of IPDPS 2020 Conference.
+Here is a short video describing the project and the current progress submitted in ICS 2021:
 
 <html>
 <body>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ufga3J0WNgw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=eG6lrRdyNtM&t=15s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </body>
 </html>
@@ -35,7 +35,8 @@ In the above example, the loop is parallelizable if array "b" is injective.
 
 ### Stage-2 : Compile-time Algorithm for Subscripted-subscripts
 
-After having completed the analysis of the subscript array patterns in the benchmark codes, we propose a compile time algorithm based on Symbolic Range Aggregation that will help us detect some of the properties discovered in stage 1 and help prove parallelism. We have applied our algorithm by hand to some representative patterns of the benchmark codes.
+After having completed the analysis of the subscript array patterns in the benchmark codes, we propose a compile time algorithm based on Symbolic Range Aggregation that will help us detect some of the properties discovered in stage 1 and help prove parallelism. We have applied our algorithm by hand to some representative patterns of the benchmark codes. The algorithm has been described in detail in our ICS'21 paper. Currently it can handle a class of subscripted
+subscripts.
 
 Refer to the following publications for more details:
 
@@ -45,7 +46,7 @@ Refer to the following publications for more details:
 
 ### Stage-3 : Implementation of the techniques inside Cetus
 
-Our eventual goal is to implement the symbolic analysis techniques proposed in stage 2 inside the [**Cetus**](https://engineering.purdue.edu/Cetus/) source to source compiler infrastructure. The implemented technique would enable analysis and possible parallelization of the subscripted-subscript patterns within benchmarks identified in stage 1. 
+Our eventual goal is to implement the symbolic analysis techniques proposed in stage 2 inside the [**Cetus**](https://engineering.purdue.edu/Cetus/) source to source compiler infrastructure. The implemented technique would enable analysis and possible parallelization of the subscripted-subscript patterns within benchmarks identified in stage 1. We will be releasing a new version of Cetus soon.
 
 #### Benchmark Suites used for analysis
 
