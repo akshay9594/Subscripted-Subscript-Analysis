@@ -41,7 +41,8 @@ subscripts.
 Refer to the following publications for more details:
 
 ### Publication:
-* Akshay Bhosale, and Rudolf Eigenmann. On the Automatic Parallelization of Subscripted Subscript Patterns using Array Property Analysis, 2021 ACM International Conference on Supercomputing (ICS) (Paper accepted).
+* Akshay Bhosale and Rudolf Eigenmann. 2021. [On the automatic parallelization of subscripted subscript patterns using array property analysis](https://dl.acm.org/doi/10.1145/3447818.3460424). In Proceedings of the ACM International Conference on Supercomputing (ICS '21). Association for Computing Machinery, New York, NY, USA, 392–403. 
+
 * Akshay Bhosale, and Rudolf Eigenmann. "[Compile-time Parallelization of Subscripted Subscript Patterns](https://ieeexplore.ieee.org/abstract/document/9150392?casa_token=t0g4f4I0ce0AAAAA:qM6cBc5kn9EEtWBCc-BJKqLzxdfFv-B48LH4v_oJZ0ikzHyl9sQm6nI7S8pkTREOHxNJn5Sgyw)" 2020 IEEE International Parallel and Distributed Processing Symposium   Workshops (IPDPSW). IEEE, 2020.
 
 ### Stage-3 : Implementation of the techniques inside Cetus
