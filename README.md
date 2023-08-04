@@ -1,6 +1,8 @@
 
 
-## The Project [Link to the GitHub Repository](https://github.com/akshay9594/The-Cetus-Project/tree/SubSub_Analysis)
+## The Project
+
+###[Link to the GitHub Repository](https://github.com/akshay9594/The-Cetus-Project/tree/SubSub_Analysis)
 
 A number of scientific applications comprise of loops wherein an array is subscripted by another array - a[b[i]]. With write references to the host array (array 'a') within a loop, current compile-time techniques are incapable of detecting such loops as parallelizable. If left unparallelized, these loops can in-turn prevent the performance obtained through automatic parallelization matching that of the hand parallelized version. Hence, Subscripted subscript analysis is the next big challenge in Automatic Parallelization. 
 
