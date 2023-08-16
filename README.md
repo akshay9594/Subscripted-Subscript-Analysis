@@ -44,7 +44,7 @@ Refer to the following publications for more details:
 ### Publications:
 * Akshay Bhosale and Rudolf Eigenmann. 2023. Recurrence Analysis for Automatic Parallelization of Subscripted Subscripts. (Submitted to PPoPP2024).
 
-* Akshay Bhosale and Rudolf Eigenmann. 2021. [On the automatic parallelization of subscripted subscript patterns using array property analysis](https://dl.acm.org/doi/10.1145/3447818.3460424). In Proceedings of the ACM International Conference on Supercomputing (ICS '21). Association for Computing Machinery, New York, NY, USA, 392–403. 
+* Akshay Bhosale and Rudolf Eigenmann. 2021. [On the automatic parallelization of subscripted subscript patterns using array property analysis](https://dl.acm.org/doi/10.1145/3447818.3460424). In Proceedings of the ACM International Conference on Supercomputing (ICS '21). Association for Computing Machinery, New York, NY, USA, 392–403. [_Erratum_](https://akshayud.me/Erratum_ICS2021.pdf)
 
 * Akshay Bhosale, and Rudolf Eigenmann. "[Compile-time Parallelization of Subscripted Subscript Patterns](https://ieeexplore.ieee.org/abstract/document/9150392?casa_token=t0g4f4I0ce0AAAAA:qM6cBc5kn9EEtWBCc-BJKqLzxdfFv-B48LH4v_oJZ0ikzHyl9sQm6nI7S8pkTREOHxNJn5Sgyw)" 2020 IEEE International Parallel and Distributed Processing Symposium   Workshops (IPDPSW). IEEE, 2020.
 
