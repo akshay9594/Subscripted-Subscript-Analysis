@@ -6,18 +6,6 @@
 
 A number of scientific applications comprise of loops wherein an array is subscripted by another array - a[b[i]]. With write references to the host array (array 'a') within a loop, current compile-time techniques are incapable of detecting such loops as parallelizable. If left unparallelized, these loops can in-turn prevent the performance obtained through automatic parallelization matching that of the hand parallelized version. Hence, Subscripted subscript analysis is the next big challenge in Automatic Parallelization. 
 
-Here is a short video describing the project and the current progress, published in proceedings of the International Conference on Supercomputing (ICS) '21:
-
-<html>
-<body>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eG6lrRdyNtM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</body>
-</html>
-<p>&nbsp;</p>
-
-
 The Project has been divided into the following stages with all three stages now complete:
 
 ### Stage-1 : Analysis of Subscripted subscript Patterns
@@ -42,7 +30,7 @@ We propose a compile time algorithm based on Symbolic Range Aggregation that can
 Refer to the following publications for more details:
 
 ### Publications:
-* Akshay Bhosale and Rudolf Eigenmann. 2023. Recurrence Analysis for Automatic Parallelization of Subscripted Subscripts. (Submitted to PPoPP2024).
+* Akshay Bhosale and Rudolf Eigenmann, “Recurrence analysis for automatic parallelization of subscripted subscripts,” in Proceedings of the 29th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, ser. PPoPP ’24, Edinburgh, United Kingdom: Association for Computing Machinery, 2024, pp. 392–403, isbn: 97984007043522403. doi: 10.1145/3627535.3638493.
 
 * Akshay Bhosale and Rudolf Eigenmann. 2021. [On the automatic parallelization of subscripted subscript patterns using array property analysis](https://dl.acm.org/doi/10.1145/3447818.3460424). In Proceedings of the ACM International Conference on Supercomputing (ICS '21). Association for Computing Machinery, New York, NY, USA, 392–403. [_Erratum_](https://akshayud.me/Erratum_ICS2021.pdf)
 
